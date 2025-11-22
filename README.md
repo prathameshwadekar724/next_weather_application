@@ -1,36 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here is your **complete, professional, beautifully formatted `README.md`** for your **Modern Weather Dashboard (Next.js)**.
+Just copy → paste → commit to GitHub.
+This is **resume-ready & recruiter-friendly**.
 
-## Getting Started
+---
 
-First, run the development server:
+# 🌦️ **Modern Weather Dashboard – Next.js 14 (App Router)**
+
+A beautiful, real-time, feature-rich **Weather Dashboard** built using
+**Next.js + TailwindCSS + Recharts + OpenWeather API**.
+
+Includes auto-location detection, animated gradients, theme toggle, charts, glass UI, sunrise/sunset, and a responsive design perfect for portfolio & deployment.
+
+---
+
+## ✨ **Features**
+
+### 🌍 **Real-Time Weather**
+
+* Auto-detect current location (Geolocation API)
+* Search weather by city name
+* Temperature, humidity, wind speed, weather icon
+
+### 🎨 **Modern UI (Glassmorphism + Gradients)**
+
+* Animated gradient background
+* Dynamic theme (Light / Dark)
+* Floating glass cards
+* Smooth transitions and responsiveness
+
+### 📊 **Interactive Charts**
+
+* Temperature trend (Next 8 timestamps)
+* Line chart built using **Recharts**
+
+### 🌅 **Sunrise & Sunset**
+
+* Local sunrise & sunset time display
+
+### ☁️ **5-Day Forecast**
+
+* Weather cards for upcoming hours/days
+
+### 🌓 **Theme Toggle**
+
+* Dark / Light mode with localStorage save
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Technology          | Purpose                                |
+| ------------------- | -------------------------------------- |
+| **Next.js 14**      | Routing, server components, deployment |
+| **TailwindCSS**     | Modern styling & animations            |
+| **Recharts**        | Temperature line graph                 |
+| **OpenWeather API** | Weather data source                    |
+| **Lucide Icons**    | Clean, modern icons                    |
+
+---
+
+## 📂 **Project Structure**
+
+```
+app/
+│── components/
+│   ├── ErrorBox.jsx
+│   ├── ForecastList.jsx
+│   ├── Loader.jsx
+│   ├── SearchBox.jsx
+│   ├── SunTimes.jsx
+│   ├── TempChart.jsx
+│   ├── ThemeToggle.jsx
+│   └── WeatherCard.jsx
+│
+│── utils/
+│   └── getBg.js
+│
+│── page.jsx
+│── layout.js
+│── globals.css
+|
+public/
+|
+.env.local
+package.json
+tailwind.config.js
+postcss.config.js
+next.config.js
+README.md
+```
+
+---
+
+## ⚙️ **Setup Instructions**
+
+### 1️⃣ **Clone the Repository**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/weather-dashboard.git
+cd weather-dashboard
+```
+
+### 2️⃣ **Install Dependencies**
+
+```bash
+npm install
+```
+
+### 3️⃣ **Add API Key**
+
+Create `.env.local` file in the root folder:
+
+```
+NEXT_PUBLIC_WEATHER_KEY=your_openweathermap_api_key
+```
+
+### 4️⃣ **Run the Development Server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit the app at:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 **Deployment (Vercel)**
 
-To learn more about Next.js, take a look at the following resources:
+1. Commit & push your code
+2. Go to [https://vercel.com](https://vercel.com) → Import GitHub repo
+3. Add your environment variable (`NEXT_PUBLIC_WEATHER_KEY`)
+4. Deploy 🎉
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 **App Preview**
 
-## Deploy on Vercel
+> (You can add your own screenshots here)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+📍 Home Page  
+📍 Weather Details Card  
+📍 Forecast Grid  
+📍 Temperature Line Chart  
+📍 Theme Toggle (Dark / Light)
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 **Key Concepts Learned**
+
+* Next.js App Router
+* Client Components vs Server Components
+* Tailwind advanced styling
+* Animated CSS gradients
+* Using Recharts inside Next.js
+* Handling APIs with async/await
+* Working with Geolocation API
+* Managing theme using localStorage
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome!
+Feel free to fork this repository and submit pull requests.
+
+---
+
+## 📝 **License**
+
+MIT License © 2025
+Developed by **Prathamesh Wadekar**
+
+---
