@@ -1,7 +1,3 @@
-Here is your **complete, professional, beautifully formatted `README.md`** for your **Modern Weather Dashboard (Next.js)**.
-Just copy → paste → commit to GitHub.
-This is **resume-ready & recruiter-friendly**.
-
 ---
 
 # 🌦️ **Modern Weather Dashboard – Next.js 14 (App Router)**
@@ -138,18 +134,8 @@ http://localhost:3000
 
 ---
 
-## 📸 **App Preview**
-
-> (You can add your own screenshots here)
-
-```
-📍 Home Page  
-📍 Weather Details Card  
-📍 Forecast Grid  
-📍 Temperature Line Chart  
-📍 Theme Toggle (Dark / Light)
-```
-
+## 🔗 Live Demo
+👉 https://next-weather-application.vercel.app/
 ---
 
 ## 🧠 **Key Concepts Learned**
