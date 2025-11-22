@@ -1,0 +1,7 @@
+export default function () {
+  return (
+    <div className="flex justify-center mt-10">
+      <div className="animate-spin rounded-full h-14 w-14 border-t-4 border-white/60 border-b-4"></div>
+    </div>
+  )
+}
